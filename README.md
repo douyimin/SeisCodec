@@ -45,19 +45,7 @@ with torch.no_grad():
 print(out["codes"].shape, out["audio"].shape)
 ```
 
-## Results
 
-Reconstruction across five SeisBench benchmarks:
-
-![Reconstruction](assets/reconstruction.jpg)
-
-Frozen-encoder linear probe on PNW three-class classification:
-
-![Linear probe](assets/linear_probe.jpg)
-
-Semantic structure of the learned discrete tokens:
-
-![Semantic structure](assets/semantic_structure.jpg)
 
 ## Citation
 
