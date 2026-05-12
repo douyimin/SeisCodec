@@ -55,6 +55,3 @@ print(out["codes"].shape, out["audio"].shape)
 
 Builds on the [Descript Audio Codec](https://github.com/descriptinc/descript-audio-codec); data via [SeisBench](https://github.com/seisbench/seisbench).
 
-## License
-
-MIT.
